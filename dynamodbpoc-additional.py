@@ -1,5 +1,5 @@
 import boto3
-
+#since this code runs inside ec2 machine print statments are used for debugging
 client = boto3.client('dynamodb',
                       aws_access_key_id='',
                       aws_secret_access_key='',
